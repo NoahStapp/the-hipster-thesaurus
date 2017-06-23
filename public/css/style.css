@@ -1,0 +1,144 @@
+h1, h2, h3, li, p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+body {
+    background: #2CBAE7;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.header {
+    width: 100%; 
+}
+
+.header h1 {
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+}
+
+.header h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}   
+
+#italictitle {
+    font-style: italic;
+}
+
+.search-box {
+    padding-top: 50px;
+}
+
+#search {
+    background-color: #fff;
+    color: #2CBAE7;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #2CBAE7;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #2CBAE7;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:   #2CBAE7;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #2CBAE7;
+}
+
+
+#results #leastcommonheader {
+    padding-bottom: 20px;
+    margin-left: -5px;
+}
+
+#results ul {
+    list-style: none;
+}
+
+#results ul li{
+    text-decoration: none;
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+#results .word {
+    margin-left: -45px;
+}
+
+#results .error {
+    margin-left: -45px;
+    font-size: 30px;
+}
+
+#results .usage {
+    margin-left: 45px;
+}
+
+#results .usage:before{
+    content: " | ";
+}
+
+#results .col-sm-12 {
+    border-left: 1px solid #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    background-color: #56c7eb;
+    text-align: center;
+    min-height: 35px;
+}
+.footer ul {
+    text-decoration: none;
+    padding: 0;
+}
+
+.footer ul li {
+    padding-top: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .header h1 {
+        font-size: 60px;
+    }
+}
